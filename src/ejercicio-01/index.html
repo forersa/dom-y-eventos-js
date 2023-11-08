@@ -2,14 +2,15 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=5.0" />
     <title>Ejercicio 1: Selección de Elementos por ID</title>
   </head>
   <body>
-    <!-- Escribe tu codigo html aqui -->
+    <div id="miElemento">Texto inicial</div>
 
     <script>
-      // Escribe tu codigo javascript aqui
+      const elemento = document.getElementById('miElemento')
+      elemento.textContent = 'Nuevo Mensaje modificado'
     </script>
   </body>
 </html>
